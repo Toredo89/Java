@@ -28,9 +28,6 @@ public class Lesson2Homework {
         return false;
     }
 
-	/*6 - 7. Написать метод, которому в качестве аргументов передается строка и число, метод должен отпечатать в консоль указанную строку, 
-             указанное количество раз;*/
-
     static void doFour(String name) {
         for (int i = 0; i < 5; i++) {
             System.out.println("2022Year" + i);
