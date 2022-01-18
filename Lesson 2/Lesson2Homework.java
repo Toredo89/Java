@@ -9,18 +9,15 @@ public class Lesson2Homework {
         System.out.println(doOne(5, 8));
         doTwo(-7);
         System.out.println(doTree(-1));
-        doFour("5");
+        doFour("Hello, men", 5);
     }
 
     static boolean doOne(int a, int b) {
-        int sum = a + b;
-        if (sum > 10 && sum < 20) return true;
-        else return false;
+        return a + b >= 10 && a + b <= 20;
     }
 
     static void doTwo(int a) {
-        if (a >= 0) System.out.println("Число " + a + "положительное");
-        else System.out.println("Число " + a + " отрицательное");
+        System.out.println(a >= 0? "Positive" : "Negative");
     }
 
     static boolean doTree(int a) {
@@ -29,8 +26,8 @@ public class Lesson2Homework {
     }
 
     static void doFour(String name) {
-        for (int i = 0; i < 5; i++) {
-            System.out.println("2022Year" + i);
+        for (int i = 0; i < count; i++) {
+            System.out.println(s);
         }
     }
 }
